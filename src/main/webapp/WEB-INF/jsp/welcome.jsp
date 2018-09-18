@@ -4,7 +4,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="http://127.0.0.1:8887/loginchat.css">
+<link rel="stylesheet" type="text/css" href="/css/loginchat.css">
 <style>
 
 </style>
