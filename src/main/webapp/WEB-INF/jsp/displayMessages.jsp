@@ -29,24 +29,12 @@ chatroom.com.zulkar.chatroom.model.*"%>
 %>
 <HTML>
 <HEAD>
-<link rel="stylesheet" type="text/css"
-	href="http://127.0.0.1:8887/chat.css">
+<link rel="stylesheet" type="text/css" href="css/chat.css">
+	
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <script type="text/javascript">
 
-<%-- function reload()
-{
-	window.location.reload(true);
-}
-
-setInterval('reload()', <%=refreshAfter%>);
-
-function winopen(path)
-{
-	chatterinfo = window.open(path,"chatterwin","scrollbars=no,resizable=yes, width=400, height=300, location=no, toolbar=no, status=no");
-	chatterinfo.focus();
-} --%>
 function doit_onkeypress(event){
     if (event.keyCode == 13 || event.which == 13){
     	document.getElementById("sendmessage").click();
